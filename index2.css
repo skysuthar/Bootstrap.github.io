@@ -1,0 +1,32 @@
+.toggle{
+	position: absolute;
+	top:15px;
+	right: 20px;
+	background:#777;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+.toggle:before{
+	content:'\f186';
+	font-family:fontAwesome;
+}
+.container1.dark{
+	background:#24292d;
+}
+.container1.dark .toggle:before{
+   content:'\f185';
+
+}
+.spinner{
+	width: 100%;
+	height: 100vh;
+	position: fixed;
+	background:url('file:///E:/java%20script/Spinner-3.gif') center;
+	background-repeat: no-repeat;
+	z-index: 99999;
+}
